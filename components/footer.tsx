@@ -72,7 +72,7 @@ export function Footer() {
                   +971567462803,  +971503603426
                 </a>
               </li>
-              <li>Midtown by Deyaar Dania  District midtown Dubai</li>
+              <li>Midtown by Deyaar Dania  District midtown Dubai United Arab Emirates</li>
             </ul>
           </div>
         </div>
