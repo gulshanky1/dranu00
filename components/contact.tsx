@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 97156 74628',
+    value: '+97156 74628',
     href: `tel:+${PHONE_NUMBER}`,
   },
   {
@@ -264,7 +264,7 @@ ${formData.message}`
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+91 XXXXX XXXXX"
+                    placeholder="+97 XXXXX XXXXX"
                     className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-gray-800 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent focus:bg-white transition-all text-sm"
                   />
                 </div>

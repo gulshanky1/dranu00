@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Menu, X, Phone } from 'lucide-react'
 import Image from 'next/image'
 
-const PHONE_NUMBER = '919715674628'
-const PHONE_DISPLAY = '+91 97156 74628'
+const PHONE_NUMBER = '+9715674628'
+const PHONE_DISPLAY = '+97156 74628'
 const WHATSAPP_URL = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(
   'Hello Dr. Anuradha Rai, I would like to book a consultation.'
 )}`
