@@ -21,7 +21,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Dubai, UAE',
+    value: 'Midtown by Deyaar Dania  District midtown Dubai United Arab Emirates',
     href: null,
   },
   {
