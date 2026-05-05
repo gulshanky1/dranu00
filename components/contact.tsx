@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+97156 74628',
+    value: '+97156 7462803',
     href: `tel:+${PHONE_NUMBER}`,
   },
   {

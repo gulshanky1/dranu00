@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 import { Sparkles, Star, Users, Globe, Award } from 'lucide-react'
 
-const PHONE_NUMBER = '919715674628'
+const PHONE_NUMBER = '+971567462803,'
 const WHATSAPP_URL = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(
   'Hello Dr. Anuradha Rai, I would like to book a consultation.'
 )}`
