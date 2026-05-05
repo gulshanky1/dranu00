@@ -194,24 +194,28 @@ ${formData.message}`
 
             {/* Social links */}
             <div className="rounded-2xl bg-white border border-gray-100 shadow-[0_4px_24px_oklch(0.2_0.01_200/0.06)] p-6">
-              <p className="text-xs text-gray-400 mb-4 font-medium uppercase tracking-wider">Follow for Updates</p>
+              <p className="text-xs text-gray-400 mb-4 font-medium uppercase tracking-wider">Follow Dr. Anuradha Rai</p>
               <div className="flex gap-2">
                 {[
-                  { label: 'f', color: 'hover:bg-blue-600', title: 'Facebook' },
-                  { label: '📷', color: 'hover:bg-pink-600', title: 'Instagram' },
-                  { label: 'in', color: 'hover:bg-blue-700', title: 'LinkedIn' },
-                  { label: '𝕏', color: 'hover:bg-gray-900', title: 'Twitter/X' },
+                  { label: 'f', color: 'hover:bg-blue-600', title: 'Facebook', url: 'https://www.facebook.com/p/Dr-Anuradha-Rai-Astrologer-100077443485606/' },
+                  { label: '📷', color: 'hover:bg-pink-600', title: 'Instagram', url: 'https://www.instagram.com/raianuradha/' },
+                  { label: '▶', color: 'hover:bg-red-600', title: 'YouTube', url: 'https://www.youtube.com/@dr.anuradharai/about' },
+                  { label: '𝕏', color: 'hover:bg-gray-900', title: 'Twitter/X', url: 'https://x.com/dubaiastrologer' },
                 ].map((s) => (
-                  <button
+                  <a
                     key={s.title}
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={s.title}
                     className={`w-10 h-10 rounded-xl bg-gray-100 text-gray-600 ${s.color} hover:text-white transition-all duration-200 flex items-center justify-center text-sm font-bold`}
                   >
                     {s.label}
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>
+
           </div>
 
           {/* ── Right: WhatsApp Form ── */}

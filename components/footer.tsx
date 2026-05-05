@@ -1,5 +1,7 @@
 'use client'
 
+import Image from "next/image"
+
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -12,7 +14,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-teal-600 to-teal-700 flex items-center justify-center text-white text-sm font-bold">
-                ✦
+                <Image src="/logo.png" alt="Logo" width={24} height={24} className="rounded-full" />
               </div>
               <span className="font-serif font-bold text-foreground">
                 Dr. Anuradha Rai
@@ -67,10 +69,10 @@ export function Footer() {
               </li>
               <li>
                 <a href="tel:+971" className="hover:text-teal-600 transition-colors">
-                  +971 50 XXX XXXX
+                  +971567462803,  +971503603426
                 </a>
               </li>
-              <li>Dubai, UAE</li>
+              <li>Midtown by Deyaar Dania  District midtown Dubai</li>
             </ul>
           </div>
         </div>
