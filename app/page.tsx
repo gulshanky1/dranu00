@@ -7,6 +7,7 @@ import { Testimonials } from '@/components/testimonials'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
 import { WhatsAppButton } from '@/components/whatsapp-button'
+import { YouTubeSection } from '@/components/youtube'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Services />
       <Achievements />
+      <YouTubeSection/>
       <Testimonials />
       <Contact />
       <Footer />
