@@ -197,9 +197,9 @@ ${formData.message}`
               <p className="text-xs text-gray-400 mb-4 font-medium uppercase tracking-wider">Follow Dr. Anuradha Rai</p>
               <div className="flex gap-2">
                 {[
-                  { label: 'f', color: 'hover:bg-blue-600', title: 'Facebook', url: 'https://www.facebook.com/p/Dr-Anuradha-Rai-Astrologer-100077443485606/' },
-                  { label: '📷', color: 'hover:bg-pink-600', title: 'Instagram', url: 'https://www.instagram.com/raianuradha/' },
-                  { label: '▶', color: 'hover:bg-red-600', title: 'YouTube', url: 'https://www.youtube.com/@dr.anuradharai/about' },
+                  { label: 'f', color: 'hover:bg-blue-600', title: 'Facebook', url: 'https://www.facebook.com/anuradha.astrologer' },
+                  { label: '📷', color: 'hover:bg-pink-600', title: 'Instagram', url: 'https://www.instagram.com/raidranuradha/?utm_medium=copy_link' },
+                  { label: '▶', color: 'hover:bg-red-600', title: 'YouTube', url: 'https://www.youtube.com/@dr.anuradharai' },
                   { label: '𝕏', color: 'hover:bg-gray-900', title: 'Twitter/X', url: 'https://x.com/dubaiastrologer' },
                 ].map((s) => (
                   <a
